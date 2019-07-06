@@ -48,18 +48,19 @@ export default {
     }
 }
 </script>
-<style>
+<style scoped>
 *{
     margin: 0;
     padding: 0
 }
      #tabBar{
         width: 100%;
-        height: 2.7rem;
+        height: .8rem;
         position: fixed;
         left: 0;
         bottom:0;
         border-top: 1px solid #ccc;
+        background: #fff
     }
 
      #tabBar>ul{
@@ -75,11 +76,11 @@ export default {
         width: 100%;
         align-items: center;
         justify-content: center;
-        font-size:.4rem;
+        font-size:.2rem;
     }
      #tabBar>ul>li>div{
-         width: 1.8rem;
-         height: 1.8rem;
+         width: .5rem;
+         height: .5rem;
      }
       #tabBar>ul>li>div>img{
           width: 100%;

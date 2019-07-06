@@ -26,6 +26,8 @@ module.exports={
                 "untils":path.resolve(__dirname,"./src/untils"),
                 "views":path.resolve(__dirname,"./src/views"),
                 "api":path.resolve(__dirname,"./src/api"),
+                "css":path.resolve(__dirname,"./public/css"),
+                "js":path.resolve(__dirname,"./public/js")
             }
         }
     }
